@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+}
+
+.main-title {
+  margin-bottom: 20px;
+}
+
+.card-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+  gap: 15px; /* Gap between the items */
+  margin: 0 auto; /* Center the grid */
+  max-width: 1200px; /* Set a max width for the gallery */
+}
+
+.gallery-item {
+  overflow: hidden; /* Ensures the image doesn't overflow its container */
+  border-radius: 8px; /* Optional: adds rounded corners to images */
+}
+
+.gallery-image {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove bottom space from images */
+}

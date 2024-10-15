@@ -21,6 +21,22 @@ h1 {
   margin-top: 0.5rem; /* Add some space between title and slogan */
 }
 
-.headerbg {
-  /* Your background styles */
+.header-container {
+  position: relative;
+}
+
+.gallery-image {
+  width: 100%; /* Adjust as necessary */
+  max-height: 100%; /* Maintain aspect ratio */
+  display: block; /* Remove bottom space from image */
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%; /* Center the text vertically */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, -50%); /* Adjust for text size */
+  color: white; /* Change to your desired text color */
+  text-align: center; /* Center the text */
 }

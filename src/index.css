@@ -95,6 +95,15 @@ code {
   margin: 0rem 1rem !important;
   width: 33.3%;
 }
+.navbar ul li a {
+  color: white; /* Initial color of navbar links */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.navbar ul li a:hover {
+  color: #01bf71; /* Color on hover */
+}
+
 /* Navbar */
 .navopened {
   background-color: #010606 !important;
@@ -210,6 +219,7 @@ header h1 {
 .main-p {
   font-size: 22px;
   font-weight: 500;
+  text-align: justify;
 }
 main {
   padding: 3rem 0;
@@ -550,4 +560,24 @@ ul li a {
 }
 .mb-1 {
   margin-bottom: 1rem !important;
+}
+footer {
+  position: relative;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+  text-align: center; /* Center text inside the footer */
+}
+
+.website-by {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.footer-logo {
+  height: 50px;
+  margin-left: 5px;
 }

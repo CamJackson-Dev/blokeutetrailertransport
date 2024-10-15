@@ -23,8 +23,7 @@ function Footer() {
                       duration={1000}
                       to="headerbg"
                     >
-                      {" "}
-                      Home{" "}
+                      Home
                     </Link>
                   </li>
                   <li>
@@ -34,8 +33,7 @@ function Footer() {
                       smooth={true}
                       duration={1000}
                     >
-                      {" "}
-                      Services{" "}
+                      Services
                     </Link>
                   </li>
                   <li>
@@ -45,13 +43,12 @@ function Footer() {
                       smooth={true}
                       duration={1000}
                     >
-                      About Us{" "}
+                      About Us
                     </Link>
                   </li>
                   <li>
                     <Link to="contact" spy={true} smooth={true} duration={1000}>
-                      {" "}
-                      Contact{" "}
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -66,7 +63,6 @@ function Footer() {
                   <li>
                     <Link to="#">Djtonkinremovals@gmail.com</Link>
                   </li>
-
                   <li>
                     <Link to="#">0438 483 414</Link>
                   </li>
@@ -81,20 +77,9 @@ function Footer() {
                       rel="noreferrer"
                       href="https://www.facebook.com/Blokeutetrailertransport"
                     >
-                      {" "}
                       Facebook
                     </a>
                   </li>
-                  {/* <li>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://www.linkedin.com/in/burhan-kocada%C4%9F-49a3331a5/"
-                    >
-                      {" "}
-                      Linkedin
-                    </a>
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -104,7 +89,19 @@ function Footer() {
       <button onClick={() => scroll.scrollToTop(2500)} src="" className="gotop">
         <i className="fas fa-level-up-alt"></i>
       </button>
+      {/* New "Website By" Section */}
+      <div className="website-by">
+        Website By:{" "}
+        <a
+          href="https://townsvillewebsites.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="/logo.png" alt="Company Logo" className="footer-logo" />
+        </a>
+      </div>
     </footer>
   );
 }
+
 export default Footer;
